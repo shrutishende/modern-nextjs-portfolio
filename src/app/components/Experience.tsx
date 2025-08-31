@@ -4,7 +4,7 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
     return (
-        <div className="py-20">
+        <div className="py-20" id="experince">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 My <span className="text-purple-400"> Work Experience</span>
             </h1>
@@ -26,9 +26,16 @@ const Experience = () => {
                                 <h1 className="text-start text-xl md:text-2xl font-bold">
                                     {card.title}
                                 </h1>
-                                <p className="text-start text-white-100 mt-3 font-semibold">
-                                    {card.desc}
+                                <p className="text-start text-white-100 text-[18px] mt-3 font-semibold">
+                                    {card.company}
                                 </p>
+                                <ul className="text-start text-[16px] text-white-100 mt-3 font-medium list-disc ml-5">
+                                    {card.desc.map((point, index) => (
+                                        <li key={index} className="mb-2">
+                                            {point}
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     </Button>

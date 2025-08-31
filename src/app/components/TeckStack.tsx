@@ -24,24 +24,24 @@ const TeckStack = () => {
         );
     });
     return (
-        <div id="skills" className="py-20">
+        <div id="skills" className="py-20 px-20">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 How I Can Contribute &
                 <span className="text-purple-400"> My Key Skills</span>
             </h1>
             <div className="tech-grid">
-                {techStackIcons.map((icon) => (
+                {techStackImgs.map((techStackIcon, index) => (
                     <div
-                        key={icon.name}
-                        className="card-border tech-card overflow-hidden group rounded-lg  xl:rounded-full"
+                        key={index}
+                        className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
                     >
                         <div className="tech-card-animated-bg" />
                         <div className="tech-card-content">
-                            <div className="tech-icon-wrapper">
-                                <TechIcon model={icon} />
+                            <div className="tech-icon-wrapper ">
+                                <img src={techStackIcon.imgPath} alt="" />
                             </div>
                             <div className="padding-x w-full">
-                                <p>{icon.name}</p>
+                                <p>{techStackIcon.name}</p>
                             </div>
                         </div>
                     </div>

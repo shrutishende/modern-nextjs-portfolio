@@ -1,14 +1,14 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Skills", link: "#testimonials" },
-    { name: "Experience", link: "#contact" },
+    { name: "Skills", link: "#skills" },
+    { name: "Experience", link: "#experince" },
 ];
 
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open communication ",
+        title: "I thrive on teamwork, ensuring clear and effective communication with clients ",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently building a JS Animation library",
+        title: "Currently building a Resume Builder Application",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,190 +72,100 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "images/p1.svg",
+        title: "Resume Builder Application",
+        des: "An app with AI-powered summary generation and easy creation/download of professional resume PDFs.",
+        img: "images/resume-builder.png",
         iconLists: [
             "images/re.svg",
             "images/tail.svg",
             "images/ts.svg",
-            "images/three.svg",
-            "images/fm.svg",
+            "images/nextjs.svg",
         ],
-        link: "/ui.earth.com",
+        link: "https://resume-builder-xi-ebon.vercel.app/",
     },
     {
         id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "images/p2.svg",
-        // iconLists: [
-        //     "/next.svg",
-        //     "/tail.svg",
-        //     "/ts.svg",
-        //     "/stream.svg",
-        //     "/c.svg",
-        // ],
-        iconLists: [
-            "images/re.svg",
-            "images/tail.svg",
-            "images/ts.svg",
-            "images/three.svg",
-            "images/fm.svg",
-        ],
-        link: "/ui.yoom.com",
-    },
-    {
-        id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "images/p3.svg",
-        // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        iconLists: [
-            "images/re.svg",
-            "images/tail.svg",
-            "images/ts.svg",
-            "images/three.svg",
-            "images/fm.svg",
-        ],
-        link: "/ui.aiimg.com",
-    },
-    {
-        id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "images/p4.svg",
+        title: "Ecommerce Applicaation",
+        des: "Build and manage your shopping experience with easy login, cart updates, and product browsing via a fake API.",
+        img: "images/ecommerce-project.png",
 
         iconLists: [
             "images/re.svg",
             "images/tail.svg",
             "images/ts.svg",
-            "images/three.svg",
-            "images/fm.svg",
+            "images/nextjs.svg",
         ],
-        link: "/ui.apple.com",
+        link: "https://ecommerce-demo-nextjs.vercel.app/",
+    },
+    {
+        id: 3,
+        title: "Portfolio Application",
+        des: "Build my personal portfolio using Next.js and Tailwind CSS to showcase my projects and skills.",
+        img: "images/portfolio-project.png",
+        iconLists: [
+            "images/re.svg",
+            "images/tail.svg",
+            "images/ts.svg",
+            "images/nextjs.svg",
+        ],
+        link: "https://nextjs-portfolio-amber-chi.vercel.app",
+    },
+    {
+        id: 4,
+        title: "Vercel Store Replica",
+        des: "Recreated vercel store replica, combining Next.js, Tailwind CSS, and TypeScript for a seamless shopping experience.",
+        img: "images/vercel-replica.png",
+
+        iconLists: [
+            "images/re.svg",
+            "images/tail.svg",
+            "images/ts.svg",
+            "images/nextjs.svg",
+        ],
+        link: "https://vercel-store-replica.vercel.app/",
     },
 ];
 
 export const techStackImgs = [
     {
-        name: "React Developer",
+        name: "ReactJS",
         imgPath: "/images/logos/react.png",
     },
     {
-        name: "Python Developer",
-        imgPath: "/images/logos/python.svg",
+        name: "NextJS ",
+        imgPath: "/images/logos/next.png",
     },
     {
-        name: "Backend Developer",
+        name: "NodeJS",
         imgPath: "/images/logos/node.png",
     },
     {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
+        name: "TypeScript",
+        imgPath: "/images/logos/ts-logo.png",
     },
     {
-        name: "Project Manager",
-        imgPath: "/images/logos/git.svg",
-    },
-];
-
-export const techStackIcons = [
-    {
-        name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Backend Developer",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
-    },
-    {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Project Manager",
-        modelPath: "/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
+        name: "Git",
+        imgPath: "/images/logos/git.png",
     },
 ];
 
 
-export const companies = [
-    {
-        id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker.",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
-];
 
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer",
-        desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+        title: "Frontend Developer",
+        company: "Cereble Private Limited | Jan 2024 - Feb 2025",
+        desc: [
+            "Crafted a responsive site from Figma designs using Next.js, delivering a seamless experience across devices.",
+            "Automated workflows with Slack API integration, cutting manual tasks and enhancing team efficiency.",
+            "Enhanced user engagement with dynamic Swiper.js sliders and polished Material UI designs.",
+            "Streamlined data collection with Formik and Yup, ensuring robust form validation and user trust.",
+            "Pioneered CMS and API integrations, making content updates effortless and scalable.",
+        ],
         className: "md:col-span-2",
         thumbnail: "images/exp1.svg",
     },
-    // {
-    //     id: 2,
-    //     title: "Mobile App Dev - JSM Tech",
-    //     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    //     className: "md:col-span-2", // change to md:col-span-2
-    //     thumbnail: "images/exp2.svg",
-    // },
-    // {
-    //     id: 3,
-    //     title: "Freelance App Dev Project",
-    //     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    //     className: "md:col-span-2", // change to md:col-span-2
-    //     thumbnail: "images/exp3.svg",
-    // },
-    // {
-    //     id: 4,
-    //     title: "Lead Frontend Developer",
-    //     desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    //     className: "md:col-span-2",
-    //     thumbnail: "images/exp4.svg",
-    // },
 ];
 
 export const socialMedia = [

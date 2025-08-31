@@ -6,6 +6,7 @@ import HeroExperience from "../components/HeroModels/HeroExperience";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Particles from "../components/HeroModels/Particles";
+import MagicButton from "../components/MagicButton";
 
 const Hero = () => {
     useGSAP(() => {
@@ -23,7 +24,6 @@ const Hero = () => {
     });
     return (
         <section id="hero" className="relative overflow-hidden">
-            
             <div className="absolute top-0 left-0 z-10">
                 <img src="/images/bg.png" alt="background image" />
             </div>
@@ -38,7 +38,7 @@ const Hero = () => {
                                     <span className="wrapper">
                                         {words.map((word) => (
                                             <span
-                                                key={word.text}
+                                                key={word.id}
                                                 className="flex items-center md:gap-3 gap-1 pb-2"
                                             >
                                                 <img
@@ -58,23 +58,38 @@ const Hero = () => {
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hi, I am Shruti, a Frontend Developer based in Pune
-                            with a passion for code
+                            with a passion for code.
                         </p>
-                        <Button
-                            className="md:w-80 md:h-16 w-60 h-12"
-                            id="button"
-                            text="see my work"
-                        />
-                        {/* <Button
-                            className="md:w-80 md:h-16 w-60 h-12"
-                            id="button"
-                            text="Resume"
-                        /> */}
+                        {/* <a href="#projects">
+                            <Button
+                                className="md:w-80 md:h-16 w-60 h-12"
+                                id="button"
+                                text="see my work"
+                            />
+                        </a>
+                        <a href="/images/resume.pdf" target="_blank">
+                            <Button
+                                className="md:w-80 md:h-16 w-60 h-12"
+                                id="button"
+                                text="resume"
+                            />
+                        </a> */}
+                        <div className="flex gap-6">
+                            <a href="#projects">
+                                <MagicButton
+                                    title="See my work"
+                                    otherClasses=""
+                                />
+                            </a>
+                            <a href="/images/resume.pdf" target="_blank">
+                                <MagicButton title="Resume" />
+                            </a>
+                        </div>
                     </div>
                 </header>
                 {/*--------- Right: 3D model------- */}
                 <figure>
-                    <div className="hero-3d-layout">
+                    <div className="hero-3d-layout cursor-grab">
                         <HeroExperience />
                     </div>
                 </figure>

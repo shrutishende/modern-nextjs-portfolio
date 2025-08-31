@@ -1,13 +1,13 @@
+"use client"
 import React from "react";
 import { projects } from "../../../data";
 import { PinContainer } from "./ui/3D-pin";
-
 import { LuArrowUpRight } from "react-icons/lu";
 
 
 const Recentprojects = () => {
     return (
-        <div className="py-20">
+        <div id="projects" className="py-20">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 A small selection of{" "}
                 <span className="text-purple-400">recent projects</span>
