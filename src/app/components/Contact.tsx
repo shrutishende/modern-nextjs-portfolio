@@ -91,7 +91,7 @@ const Contact = () => {
                             </div>
                             <button type="submit">
                                 <div className="cta-button group">
-                                    <div className="bg-circle" />
+                                    {/* <div className="bg-circle" /> */}
                                     <p className="text">
                                         {loading
                                             ? "Sending..."
