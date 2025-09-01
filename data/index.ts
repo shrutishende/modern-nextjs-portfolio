@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -168,17 +170,46 @@ export const workExperience = [
     },
 ];
 
+
+export const socialImgs = [
+    {
+        name: "insta",
+        imgPath: "/images/insta.png",
+        link: "https://www.instagram.com/shrutishende__/",
+    },
+    {
+        name: "fb",
+        imgPath: "/images/fb.png",
+        link: "https://www.facebook.com/profile.php?id=100004554796150",
+    },
+    {
+        name: "x",
+        imgPath: "/images/x.png",
+        link: "https://x.com/shrutishende_",
+    },
+    {
+        name: "linkedin",
+        imgPath: "/images/linkedin.png",
+        link: "https://www.linkedin.com/in/shrutishende/",
+    },
+    {
+        name: "git",
+        imgPath: "/images/git.svg",
+        link: "https://github.com/shrutishende",
+    },
+];
+
 export const socialMedia = [
     {
         id: 1,
-        img: "/git.svg",
+        img: "images/git.svg",
     },
     {
         id: 2,
-        img: "/twit.svg",
+        img: "images/insta.svg",
     },
     {
         id: 3,
-        img: "/link.svg",
+        img: "images/link.svg",
     },
 ];

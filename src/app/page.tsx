@@ -1,6 +1,7 @@
 import Approach from "./components/Approach";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 import Grid from "./components/Grid";
 import NavBar from "./components/NavBar";
 import Recentprojects from "./components/Recentprojects";
@@ -18,6 +19,7 @@ export default function Home() {
             <TeckStack />
             <Approach />
             <Contact />
+            <Footer/>
         </>
     );
 }
