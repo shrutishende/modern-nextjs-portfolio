@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { techStackIcons, techStackImgs } from "../../../data";
-import TechIcon from "./Models/TechLogos/TechIcon";
+import {  techStackImgs } from "../../../data";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 

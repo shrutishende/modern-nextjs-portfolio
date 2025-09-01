@@ -43,7 +43,7 @@ const Contact = () => {
         <section id="contact" className="py-20 px-20">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 Get in touch -
-                <span className="text-purple-400"> Let's Connect</span>
+                <span className="text-purple-400"> Let&apos;s Connect</span>
             </h1>
             <div className="grid-12-cols mt-16">
                 <div className="xl:col-span-5">

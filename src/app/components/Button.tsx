@@ -3,10 +3,10 @@ import React from "react";
 type ButtonProps = {
     text: string;
     className?: string;
-    id?: string;
+    // id?: string;
 };
 
-function Button({ text, className, id }: ButtonProps) {
+function Button({ text, className }: ButtonProps) {
     return (
         <div
             // onClick={(e) => {

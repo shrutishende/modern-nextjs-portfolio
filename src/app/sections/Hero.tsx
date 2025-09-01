@@ -78,11 +78,18 @@ const Hero = () => {
                             <a href="#projects">
                                 <MagicButton
                                     title="See my work"
+                                    icon={null}
+                                    position=""
                                     otherClasses=""
                                 />
                             </a>
                             <a href="/images/resume.pdf" target="_blank">
-                                <MagicButton title="Resume" />
+                                <MagicButton
+                                    title="Resume"
+                                    icon={null}
+                                    position=""
+                                    otherClasses=""
+                                />
                             </a>
                         </div>
                     </div>
