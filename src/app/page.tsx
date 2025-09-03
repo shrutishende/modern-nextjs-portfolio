@@ -18,7 +18,7 @@ export default function Home() {
                 <Recentprojects />
                 <Experience />
                 <TeckStack />
-                <Approach />
+                {/* <Approach /> */}
                 <Contact />
                 <Footer />
            

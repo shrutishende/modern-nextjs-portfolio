@@ -57,8 +57,8 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I am Shruti, a Frontend Developer based in Pune
-                            with a passion for code.
+                            Hi, I am Shruti, a Frontend Developer based
+                            in Pune with a passion for code.
                         </p>
                         {/* <a href="#projects">
                             <Button
@@ -83,7 +83,10 @@ const Hero = () => {
                                     otherClasses=""
                                 />
                             </a>
-                            <a href="/images/resume.pdf" target="_blank">
+                            <a
+                                href="/ShrutiShende_ReactDeveloper.pdf"
+                                target="_blank"
+                            >
                                 <MagicButton
                                     title="Resume"
                                     icon={null}
