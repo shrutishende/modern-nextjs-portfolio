@@ -4,17 +4,17 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
     return (
-        <div className="py-20" id="experince">
+        <div className="py-20 max-sm:py-5" id="experince">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 My <span className="text-purple-400"> Work Experience</span>
             </h1>
-            <div className="w-full mt-12 flex items-center justify-center  ">
+            <div className="w-full mt-12 flex items-center justify-center">
                 {workExperience.map((card) => (
                     <Button
                         key={card.id}
                         borderRadius="1.75rem"
                         duration={Math.floor(Math.random() * 10000) + 10000}
-                        className="flex-1 text-white border-neutral-200 dark:border-slate-800 "
+                        className="flex-1 text-white border-neutral-200 dark:border-slate-800"
                     >
                         <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
                             <img
