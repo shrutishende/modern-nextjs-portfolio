@@ -11,15 +11,17 @@ import Hero from "./sections/Hero";
 export default function Home() {
     return (
         <>
-            <NavBar />
-            <Hero />
-            <Grid />
-            <Recentprojects />
-            <Experience />
-            <TeckStack />
-            <Approach />
-            <Contact />
-            <Footer/>
+           
+                <NavBar />
+                <Hero />
+                <Grid />
+                <Recentprojects />
+                <Experience />
+                <TeckStack />
+                <Approach />
+                <Contact />
+                <Footer />
+           
         </>
     );
 }
