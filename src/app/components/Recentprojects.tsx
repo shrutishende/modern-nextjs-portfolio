@@ -16,7 +16,7 @@ const Recentprojects = () => {
                 {projects.map((project) => (
                     <div
                         key={project.id}
-                        className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[576px]  w-[80vw]"
+                        className="max-sm:h-[h-36rem] sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem]  flex items-center justify-center sm:w-[576px]  w-[80vw]"
                     >
                         <PinContainer title={project.link} href={project.link}>
                             <div className="relative flex items-center justify-center sm:w-[576px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh]  mb-10">

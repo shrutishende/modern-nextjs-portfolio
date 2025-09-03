@@ -23,7 +23,7 @@ const TeckStack = () => {
         );
     });
     return (
-        <div id="skills" className="py-20 px-20">
+        <div id="skills" className="py-20 px-20 max-sm:py-10 max-sm:px-7">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 How I Can Contribute &
                 <span className="text-purple-400"> My Key Skills</span>
@@ -32,7 +32,7 @@ const TeckStack = () => {
                 {techStackImgs.map((techStackIcon, index) => (
                     <div
                         key={index}
-                        className="card-border tech-card overflow-hidden group xl:rounded-full rounded-lg"
+                        className="card-border tech-card overflow-hidden group xl:rounded-full rounded-xl"
                     >
                         <div className="tech-card-animated-bg" />
                         <div className="tech-card-content">
