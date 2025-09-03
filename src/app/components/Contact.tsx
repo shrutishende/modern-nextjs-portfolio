@@ -40,7 +40,7 @@ const Contact = () => {
         }
     };
     return (
-        <section id="contact" className="py-20 px-20">
+        <section id="contact" className="py-20 max-sm:py-0 max-sm:px-5 px-20">
             <h1 className="font-bold text-4xl md:text-5xl text-center">
                 Get in touch -
                 <span className="text-purple-400"> Let&apos;s Connect</span>
@@ -92,7 +92,7 @@ const Contact = () => {
                             <button type="submit">
                                 <div className="cta-button group">
                                     {/* <div className="bg-circle" /> */}
-                                    <p className="text">
+                                    <p className="text text-white-50">
                                         {loading
                                             ? "Sending..."
                                             : "Send Message"}
