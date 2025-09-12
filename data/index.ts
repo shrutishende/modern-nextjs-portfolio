@@ -197,6 +197,11 @@ export const socialImgs = [
         imgPath: "/images/git.svg",
         link: "https://github.com/shrutishende",
     },
+    {
+        name: "medium",
+        imgPath: "/images/medium.png",
+        link: "https://medium.com/@shrutishende11",
+    },
 ];
 
 export const socialMedia = [

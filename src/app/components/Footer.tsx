@@ -1,5 +1,6 @@
 import React from "react";
 import { socialImgs } from "../../../data";
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -12,9 +13,11 @@ const Footer = () => {
                     {socialImgs.map((socialImg, index) => (
                         <a key={index} href={socialImg.link} target="_blank">
                             <div className="icon">
-                                <img
+                                <Image
                                     src={socialImg.imgPath}
                                     alt="social icon"
+                                    width={19}
+                                    height={19}
                                 />
                             </div>
                         </a>

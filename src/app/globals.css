@@ -217,7 +217,7 @@ section {
 
         .text {
             @apply uppercase md:text-lg text-black transition-all duration-500
-        group-hover:text-white-50 ;
+        group-hover:text-white-50;
         }
 
         .arrow-wrapper {
@@ -263,7 +263,7 @@ section {
     }
 
     .tech-card-content {
-        @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10 ;
+        @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10;
 
         & p {
             @apply text-lg 2xl:text-2xl pb-5 xl:pb-0 font-semibold text-white-50 text-center;

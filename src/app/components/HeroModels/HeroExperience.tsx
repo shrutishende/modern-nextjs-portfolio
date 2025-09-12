@@ -10,7 +10,6 @@ import Particles from "./Particles";
 const HeroExperience = () => {
     const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
     return (
         <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
             <HeroLights />
