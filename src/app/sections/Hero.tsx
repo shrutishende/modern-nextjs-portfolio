@@ -9,9 +9,9 @@ import dynamic from "next/dynamic";
 
 const HeroExperience = dynamic(
     () => import("../components/HeroModels/HeroExperience"),
-    {
-        ssr: false,
-    }
+    // {
+    //     ssr: false,
+    // }
 );
 
 const Hero = () => {
@@ -30,77 +30,76 @@ const Hero = () => {
     });
     return (
         <>
-           
             <section id="hero" className="relative overflow-hidden ">
                 <div className="absolute top-0 left-0 z-10">
                     <img src="/images/bg.png" alt="background image" />
                 </div>
                 <div className="hero-layout ">
                     {/*--------- Left: hero content------- */}
-                <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
-                    <div className="flex flex-col gap-7">
-                        <div className="hero-text">
-                            <h1>
-                                Shaping
-                                <span className="slide">
-                                    <span className="wrapper">
-                                        {words.map((word) => (
-                                            <span
-                                                key={word.id}
-                                                className="flex items-center md:gap-3 gap-1 pb-2"
-                                            >
-                                                <img
-                                                    src={word.imgPath}
-                                                    alt={word.text}
-                                                    className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
-                                                />
-                                                <span>{word.text}</span>
-                                            </span>
-                                        ))}
+                    <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+                        <div className="flex flex-col gap-7">
+                            <div className="hero-text">
+                                <h1>
+                                    Shaping
+                                    <span className="slide">
+                                        <span className="wrapper">
+                                            {words.map((word) => (
+                                                <span
+                                                    key={word.id}
+                                                    className="flex items-center md:gap-3 gap-1 pb-2"
+                                                >
+                                                    <img
+                                                        src={word.imgPath}
+                                                        alt={word.text}
+                                                        className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
+                                                    />
+                                                    <span>{word.text}</span>
+                                                </span>
+                                            ))}
+                                        </span>
                                     </span>
-                                </span>
-                            </h1>
+                                </h1>
 
-                            <h1>into Real Projects</h1>
-                            <h1>that Deliver Results</h1>
+                                <h1>into Real Projects</h1>
+                                <h1>that Deliver Results</h1>
+                            </div>
+                            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                                Hi, I am Shruti, a Frontend Developer based in
+                                Pune with a passion for code. <br/> I'm currently
+                                seeking new opportunities to contribute to
+                                innovative projects."
+                            </p>
+
+                            <div className="flex gap-6">
+                                <a href="#projects">
+                                    <MagicButton
+                                        title="See my work"
+                                        icon={null}
+                                        position=""
+                                        otherClasses=""
+                                    />
+                                </a>
+                                <a
+                                    href="/ShrutiShende_ReactDeveloper.pdf"
+                                    target="_blank"
+                                >
+                                    <MagicButton
+                                        title="Resume"
+                                        icon={null}
+                                        position=""
+                                        otherClasses=""
+                                    />
+                                </a>
+                            </div>
                         </div>
-                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I am Shruti, a Frontend Developer based in Pune
-                            with a passion for code.
-                        </p>
-                         
-                        <div className="flex gap-6">
-                            <a href="#projects">
-                                <MagicButton
-                                    title="See my work"
-                                    icon={null}
-                                    position=""
-                                    otherClasses=""
-                                />
-                            </a>
-                            <a
-                                href="/ShrutiShende_ReactDeveloper.pdf"
-                                target="_blank"
-                            >
-                                <MagicButton
-                                    title="Resume"
-                                    icon={null}
-                                    position=""
-                                    otherClasses=""
-                                />
-                            </a>
+                    </header>
+                    {/*--------- Right: 3D model------- */}
+                    <figure>
+                        <div className="hero-3d-layout cursor-grab max-sm:hidden ">
+                            <HeroExperience />
                         </div>
-                    </div>
-                </header>
-                {/*--------- Right: 3D model------- */}
-                <figure>
-                    <div className="hero-3d-layout cursor-grab max-sm:hidden ">
-                        <HeroExperience />
-                    </div>
-                </figure>
+                    </figure>
                 </div>
-
-               
             </section>
         </>
     );
