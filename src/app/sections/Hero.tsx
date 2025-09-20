@@ -65,9 +65,9 @@ const Hero = () => {
                             </div>
                             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                                 Hi, I am Shruti, a Frontend Developer based in
-                                Pune with a passion for code. <br/> I'm currently
-                                seeking new opportunities to contribute to
-                                innovative projects."
+                                Pune with a passion for code. <br /> I&apos;m
+                                currently seeking new opportunities to
+                                contribute to innovative projects.
                             </p>
 
                             <div className="flex gap-6">
