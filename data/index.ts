@@ -70,7 +70,7 @@ export const gridItems = [
         spareImg: "",
     },
 ];
-
+ 
 export const projects = [
     {
         id: 1,
@@ -87,9 +87,9 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Ecommerce Applicaation",
-        des: "Build and manage your shopping experience with easy login, cart updates, and product browsing via a fake API.",
-        img: "images/ecommerce-project.png",
+        title: "Portfolio Website",
+        des: "Build Anjali Bhagwat's portfolio using using Next.js and integrated with slack api",
+        img: "images/anjali-bhagwat-portfolio.png",
 
         iconLists: [
             "images/re.svg",
@@ -97,7 +97,7 @@ export const projects = [
             "images/ts.svg",
             "images/nextjs.svg",
         ],
-        link: "https://ecommerce-demo-nextjs.vercel.app/",
+        link: "https://anjalibhagwat.com/",
     },
     {
         id: 3,
@@ -114,9 +114,9 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Vercel Store Replica",
-        des: "Recreated vercel store replica, combining Next.js, Tailwind CSS, and TypeScript for a seamless shopping experience.",
-        img: "images/vercel-replica.png",
+        title: "Fundook Website",
+        des: "Build Fundook website using Next.js and tailwind css",
+        img: "images/fundook.png",
 
         iconLists: [
             "images/re.svg",
@@ -124,7 +124,21 @@ export const projects = [
             "images/ts.svg",
             "images/nextjs.svg",
         ],
-        link: "https://vercel-store-replica.vercel.app/",
+        link: "https://fundook.io/",
+    },
+    {
+        id: 5,
+        title: "Ecommerce Applicaation",
+        des: "Build and manage your shopping experience with easy login, cart updates, and product browsing via a fake API.",
+        img: "images/ecommerce-project.png",
+
+        iconLists: [
+            "images/re.svg",
+            "images/tail.svg",
+            "images/ts.svg",
+            "images/nextjs.svg",
+        ],
+        link: "https://ecommerce-demo-nextjs.vercel.app/",
     },
 ];
 
