@@ -1,4 +1,3 @@
-import { link } from "fs";
 
 export const navItems = [
     { name: "About", link: "#about" },
@@ -86,33 +85,6 @@ export const projects = [
         link: "https://resume-builder-xi-ebon.vercel.app/",
     },
     {
-        id: 2,
-        title: "Portfolio Website",
-        des: "Build Anjali Bhagwat's portfolio using using Next.js and integrated with slack api",
-        img: "images/anjali-bhagwat-portfolio.png",
-
-        iconLists: [
-            "images/re.svg",
-            "images/tail.svg",
-            "images/ts.svg",
-            "images/nextjs.svg",
-        ],
-        link: "https://anjalibhagwat.com/",
-    },
-    {
-        id: 3,
-        title: "Portfolio Application",
-        des: "Build my personal portfolio using Next.js and Tailwind CSS to showcase my projects and skills.",
-        img: "images/portfolio-project.png",
-        iconLists: [
-            "images/re.svg",
-            "images/tail.svg",
-            "images/ts.svg",
-            "images/nextjs.svg",
-        ],
-        link: "https://nextjs-portfolio-amber-chi.vercel.app",
-    },
-    {
         id: 4,
         title: "Fundook Website",
         des: "Build Fundook website using Next.js and tailwind css",
@@ -127,6 +99,21 @@ export const projects = [
         link: "https://fundook.io/",
     },
     {
+        id: 2,
+        title: "Portfolio Website",
+        des: "Build Anjali Bhagwat's portfolio using using Next.js and integrated with slack api",
+        img: "images/anjali-bhagwat-portfolio.png",
+
+        iconLists: [
+            "images/re.svg",
+            "images/tail.svg",
+            "images/ts.svg",
+            "images/nextjs.svg",
+        ],
+        link: "https://anjalibhagwat.com/",
+    },
+
+    {
         id: 5,
         title: "Ecommerce Applicaation",
         des: "Build and manage your shopping experience with easy login, cart updates, and product browsing via a fake API.",
@@ -139,6 +126,19 @@ export const projects = [
             "images/nextjs.svg",
         ],
         link: "https://ecommerce-demo-nextjs.vercel.app/",
+    },
+    {
+        id: 3,
+        title: "Portfolio Application",
+        des: "Build my personal portfolio using Next.js and Tailwind CSS to showcase my projects and skills.",
+        img: "images/portfolio-project.png",
+        iconLists: [
+            "images/re.svg",
+            "images/tail.svg",
+            "images/ts.svg",
+            "images/nextjs.svg",
+        ],
+        link: "https://nextjs-portfolio-amber-chi.vercel.app",
     },
 ];
 
