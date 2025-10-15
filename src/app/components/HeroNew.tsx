@@ -63,7 +63,7 @@ const HeroNew = () => {
                             />
                         </a>
                         <a
-                            href="/ShrutiShende_ReactDeveloper.pdf"
+                            href="/Shruti_Shende_Frontend_Developer.pdf"
                             target="_blank"
                         >
                             <MagicButton
